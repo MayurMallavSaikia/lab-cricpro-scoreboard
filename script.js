@@ -1,5 +1,5 @@
   function display(num){
   
-             document.getElementById('img'+num).innerHTML="<img src='assets/Player"+num+".png'>";
+             window.open('assets/Player'+num+'.png','popup','width=600,height=300');
         }
 
